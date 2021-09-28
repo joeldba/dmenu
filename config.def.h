@@ -6,7 +6,7 @@ static int centered = 1;                    /* -c option; centers dmenu on scree
 static int min_width = 300;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"JetBrains Mono:size=8", "FontAwesome5Free:style=Solid:size=8:antialias:true", "FontAwesome5Brands:size=8:antialias:true"
+	"Terminus:size=8", "FontAwesome5Free:style=Solid:size=8:antialias:true", "FontAwesome5Brands:size=8:antialias:true"
 };
 static const char *prompt      = "run:";      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
